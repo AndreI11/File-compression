@@ -51,19 +51,7 @@ unsigned int getNBits(int n,std::istream_iterator<unsigned char>* eos, std::istr
 }
 
 
-int main(int argc, const char* argv[]){
 
-	static std::ifstream input(argv[1]);
-    static std::istream_iterator<unsigned char> eos;
-    static std::istream_iterator<unsigned char> iit(input);
-    std::cout << getNBits(8,&eos,&iit) << std::endl;
-    std::cout << getNBits(8,&eos,&iit) << std::endl;
-    std::cout << getNBits(8,&eos,&iit) << std::endl;
-
-
-}
-
-/*
 int main(int argc, const char * argv[]){
 	std::string s = "";
     int i;
@@ -172,4 +160,4 @@ int lengthOfMatch, readyToRemove = 0, splitString = 0;
     
 
     }
-    */
+    
