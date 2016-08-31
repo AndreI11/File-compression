@@ -111,7 +111,7 @@ int lengthOfMatch, readyToRemove = 0, splitString = 0;
 
 }
 }
-*/
+
     /*
     while(iit != eos){
   
@@ -160,4 +160,4 @@ int lengthOfMatch, readyToRemove = 0, splitString = 0;
     
 
     }
-    
+    */
